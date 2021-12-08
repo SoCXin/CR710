@@ -1,0 +1,51 @@
+{
+    "type":"SoC",
+    "name":"CR710",
+    "title": "cloudersemi SoC CR710",
+    "description":"cloudersemi ARM946E-S CR710 SoC",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"ARM946E-S",
+        "Freq": 260,
+        "DMIPS": 100,
+        "CoreMark": 160
+    },
+    "manufacturer": {
+        "vendor":"cloudersemi",
+        "homepage": "http://www.cloudersemi.com/Product/CR710"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CR710.git"
+    },
+    "series":["CR710"],
+    "package":["LQFP100"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[4,8],
+    "PWR": {
+        "VDD": [2800,5000],
+        "Ivdd": 3.5,
+        "LDO": [5000,3300],
+        "rate": 1024
+    },
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "PLC",
+        "CR710",
+        "PLC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}

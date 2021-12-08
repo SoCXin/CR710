@@ -1,3 +1,10 @@
 *.pyc
+*.hex
+*.log
 .pio/
 .vscode/
+list
+obj
+Lst
+*uvgui*
+*uvopt*
